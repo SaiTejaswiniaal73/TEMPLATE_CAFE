@@ -1,153 +1,137 @@
-body
-{
+body {
   background-color: rgb(245, 232, 232);
 }
-.nav{
-    display: flex;
-    justify-content: space-around;
-    border: px solid black;
-    top: -15px;
-    width: 100vw;
-    position: sticky;
-    z-index: 10;
-    justify-content: space-around;
-    background-color: rgba(218, 231, 217, 0.571);
-    font-family: Arial, Helvetica, sans-serif;
-    box-shadow: 5px 0px 5px rgb(182, 124, 15);
+body {
+  margin: 0;
+  overflow-x: hidden;
 }
-.navbar p:hover,li a:hover{
-    background-color: rgba(128, 128, 128, 0.338);
-  
-  }
-a{
-    text-decoration: none;
-    font-family: "Times New Roman", Georgia, Serif;
-    letter-spacing: 5px;
-    color:white;  
-    background-color: black;
-    
-    
-}
-#ul{
- list-style: none;
-display: flex;
-margin-top: 15px;
-justify-content: space-around;
-background-color: black;
-gap:60px;
+#home img {
+  width: 100%; /* Instead of 100vw */
+  margin-top: 10px;
 }
 
-#home
-{
-position: relative;
-display: flex; 
-justify-content: center;
-}
-.centername
-{
-    position: absolute;
-    top:30%;
-    left:45%;
-    color: rgb(146, 13, 198);
-    font-size: 100%; 
-    background-color: antiquewhite;  
-}
-.address
-{
-    position: absolute;
-    top:84%;
-    left:7%;
-    color: white;
-    font-size: 90%;
-    background-color: rgba(166, 233, 10, 0.742);
-    font-style: italic;
-    
-}
-.time
-{
-    position: absolute;
-    top:84%;
-    left:80%;
-    color: white;
-    font-size: 90%;
-    background-color: rgba(185, 230, 3, 0.543); 
-    font-style: italic; 
-   
-}
-.tit
-{
-    text-align: center;
-    color:whitesmoke;
-    background-color: black;
-}
-#about
-{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-left: 20%;
-    margin-right: 20%;
-}
-.grey
-{
-    background-color: rgba(128, 128, 128, 0.251) ;
-    border-left : 5px solid grey;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  top: -15px;
+  width: 100vw;
+  position: sticky;
+  z-index: 10;
+  background-color: rgba(218, 231, 217, 0.571);
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 5px 0px 5px rgb(182, 124, 15);
 }
 
-.img2
-{
-    margin-right: 80px;
-    width: 50vw;   
+li a:hover {
+  background-color: rgba(128, 128, 128, 0.338);
 }
 
-#menu
-{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-left: 20%;
-    margin-right: 20%;
+a {
+  text-decoration: none;
+  font-family: "Times New Roman", Georgia, Serif;
+  letter-spacing: 5px;
+  color: white;
+  background-color: black;
 }
-.the menu
-{
-    background-color: black;
+
+#ul {
+  list-style: none;
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-around;
+  background-color: black;
+  gap: 60px;
+  z-index: 11;
 }
-#where
-{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-left: 20%;
-    margin-right: 20%;
+
+#home {
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
-p
-{
-    text-align: justify;
-    font-style: oblique;
+
+.centername {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(146, 13, 198);
+  font-size: 2rem;
+  background-color: antiquewhite;
 }
-h5{
-    font-style:normal;
+
+.address,
+.time {
+  position: absolute;
+  bottom: 5%;
+  color: white;
+  font-size: 1rem;
+  background-color: rgba(166, 233, 10, 0.742);
+  font-style: italic;
 }
+
+.address {
+  left: 5%;
+}
+
+.time {
+  right: 5%;
+}
+
+.tit {
+  text-align: center;
+  color: whitesmoke;
+  background-color: black;
+  padding: 10px;
+}
+
+#about,
+#menu,
+#where {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 20%;
+  margin-top: 10px;
+}
+
+.grey {
+  background-color: rgba(128, 128, 128, 0.251);
+  border-left: 5px solid grey;
+  padding: 10px;
+}
+
+.img2 {
+  margin-right: 80px;
+  width: 50vw;
+}
+
+p {
+  text-align: justify;
+  font-style: oblique;
+}
+
+h5 {
+  font-style: normal;
+}
+
 form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 90vw;
-    
-  }
-  ::-webkit-scrollbar{
-    display: none;
-  }
-  .foot
-  {
-    
-    padding: 5px;
-    width: 100vw;
-    border: 2px solid;
-    text-align: center;
-    
-    
-   
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90vw;
+}
 
-
+.foot {
+  padding: 5px;
+  width: 100vw;
+  border: 2px solid;
+  text-align: center;
+}
