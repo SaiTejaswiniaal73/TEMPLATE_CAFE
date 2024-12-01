@@ -59,7 +59,7 @@ body {
   background-color: rgba(218, 231, 217, 0.571);
   font-family: Arial, Helvetica, sans-serif;
   box-shadow: 5px 0px 5px rgb(182, 124, 15);
-  postion:sticky;
+  padding: 10px;
 }
 
 li a:hover {
@@ -77,10 +77,10 @@ a {
 #ul {
   list-style: none;
   display: flex;
-  margin-top: 15px;
+  margin-top: 1px;
   justify-content: space-around;
   background-color: black;
-  gap: 60px;
+  gap: 90px;
   z-index: 11;
 }
 
