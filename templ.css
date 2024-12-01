@@ -1,7 +1,7 @@
 body {
   background-color: rgb(245, 232, 232);
 }
-/* Global reset for margin, padding, and box-sizing */
+
 * {
   margin: 0;
   padding: 0;
@@ -11,21 +11,21 @@ body {
 html, body {
   width: 100%;
   height: 100%;
-  overflow-x: hidden;  /* Prevent horizontal scrolling globally */
+  overflow-x: hidden;  
 }
 
 #home {
   position: relative;
-  width: 100%;           /* Make sure the container is full-width */
-  max-width: 100vw;      /* Limit to viewport width */
-  overflow: hidden;      /* Prevent overflow */
+  width: 100%;           
+  max-width: 100vw;      
+  overflow: hidden;      
 }
 
 #home img {
-  width: 100%;           /* Make sure the image doesn't exceed the container */
-  height: auto;          /* Maintain aspect ratio */
-  display: block;        /* Remove extra space at the bottom */
-  object-fit: cover;     /* Ensure the image covers the entire space without spilling over */
+  width: 100%;          
+  height: auto;          
+  display: block;        
+  object-fit: cover;     
 }
 
 .centername {
