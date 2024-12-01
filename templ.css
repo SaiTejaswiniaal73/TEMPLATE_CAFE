@@ -1,7 +1,7 @@
 body {
   background-color: rgb(245, 232, 232);
 }
-
+/* Global reset for margin, padding, and box-sizing */
 * {
   margin: 0;
   padding: 0;
@@ -11,20 +11,21 @@ body {
 html, body {
   width: 100%;
   height: 100%;
-  overflow-x: hidden;  
+  overflow-x: hidden;  /* Prevent horizontal scrolling globally */
 }
 
 #home {
   position: relative;
-  width: 100%;           
-  max-width: 100vw;     
-  overflow: hidden;     }
+  width: 100%;           /* Make sure the container is full-width */
+  max-width: 100vw;      /* Limit to viewport width */
+  overflow: hidden;      /* Prevent overflow */
+}
 
 #home img {
-  width: 100%;
-  height: auto;         
-  display: block;        
-  object-fit: cover;     
+  width: 100%;           /* Make sure the image doesn't exceed the container */
+  height: auto;          /* Maintain aspect ratio */
+  display: block;        /* Remove extra space at the bottom */
+  object-fit: cover;     /* Ensure the image covers the entire space without spilling over */
 }
 
 .centername {
@@ -133,6 +134,7 @@ a {
   margin-left: 20%;
   margin-right: 20%;
   margin-top: 3%;
+  margin-bottom: 2px;
   
 }
 
@@ -161,14 +163,17 @@ form {
   flex-direction: column;
   justify-content: center;
   width: 90vw;
+  gap: 10px;
 }
 
 .foot {
+  margin-top: 10px;
+  margin-bottom: 5px;
   padding: 5px;
   width: 100vw;
   border: 2px solid;
   text-align: center;
 }
 ::-webkit-scrollbar{
-    display: none;
-  }
+  display: none;
+}
