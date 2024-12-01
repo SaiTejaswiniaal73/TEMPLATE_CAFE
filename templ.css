@@ -169,3 +169,6 @@ form {
   border: 2px solid;
   text-align: center;
 }
+::-webkit-scrollbar{
+    display: none;
+  }
