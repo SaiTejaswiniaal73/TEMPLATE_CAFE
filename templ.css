@@ -40,16 +40,7 @@ html, body {
   box-shadow: 5px 0px 5px rgb(182, 124, 15);
   padding: 10px;
   align-items: center;
-    /* display: flex;
-    justify-content: space-around;
-    border: 5px solid rgba(220, 23, 108, 0.906);
-    top: -15px;
-    width: 100vw;
-    position: sticky;
-    z-index: 10;
-    justify-content: space-around;
-    
-    align-items: center; */
+  
 
 }
 .navbar p:hover,li a:hover{
@@ -125,7 +116,7 @@ justify-content: center;
     background-color: rgb(23, 218, 49);
     border: 2px solid green;
     font-style: oblique;
-    padding: 5px;
+    
 }
 #about
 {
